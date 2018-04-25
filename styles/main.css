@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom right, rgb(42, 211, 146), rgb(42, 211, 211));
+}
+
+th{
+    min-width: 200px;
+}
+
+caption {
+    background-color: white;
+}
+
+table {
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+    }
+    tbody tr:nth-child(even) {
+    background-color: silver;
+    }
+    
+tfoot tr{
+    background-color: lightsteelblue;
+}
+
+td {
+    border-width: 2px;
+}
+
+
+nav ul {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+nav a {
+
+    color: white;
+}
+
+nav a :visited {
+    color: white;
+}
+
+nav li:hover {
+    background: white;
+    color: black;
+}
+
+nav li {
+    transition-duration: 0.4s;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    padding: 15px;
+    margin: 0%;
+    width: 10%;
+    background-color: transparent;
+}
