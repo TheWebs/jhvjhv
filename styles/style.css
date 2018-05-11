@@ -1,0 +1,65 @@
+#titulos {
+    font-family: Lobster;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+body {
+    background: linear-gradient(120deg, #155799, #159957);
+    background-repeat:no-repeat;
+    margin-top: 100px;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#menu {
+    position: fixed;
+    width: 100%;
+    top: 1%;
+}
+
+#menu ul {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+
+#menu li{
+    transition-duration: 0.4s;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    padding: 15px;
+    margin: 0%;
+    width: 10%;
+    background-color: transparent;
+}
+
+#menu li:hover {
+    background: white;
+    color: #155799;
+}
+
+#menu a :visited
+{
+    color: white;
+}
+
+#menu a {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
